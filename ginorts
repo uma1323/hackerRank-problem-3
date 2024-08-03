@@ -1,0 +1,11 @@
+#GINORTS
+s=input()
+s=sorted(s,key=lambda x:(x.isdigit() and int(x)%2==0,x.isdigit(),x.isupper(),x.islower(),x))
+print(*(s),sep='')
+OUTPUT
+Input (stdin)
+Sorting1234
+Your Output (stdout)
+ginortS1324
+Expected Output
+ginortS1324
